@@ -1,9 +1,10 @@
-<?xml version="1.0"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>HaskellPlatform</id>
     <title>Haskell Platform</title>
-    <version>2014.2.0.0</version>
+    <version>7.10.2.0</version>
     <authors>The University Court of the University of Glasgow.</authors>
     <owners>f440</owners>
     <summary>Haskell Platform</summary>
@@ -12,7 +13,7 @@
     <tags>programming haskell</tags>
     <licenseUrl>http://lambda.haskell.org/platform/doc/current/ghc-doc/users_guide/License.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>http://www.haskell.org/platform/images/Haskell-Logo-Boxed.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/f440/chocolatey-HaskellPlatform/master/haskell.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
