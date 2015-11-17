@@ -1,7 +1,7 @@
 ﻿$packageName = 'Haskell Platform'
 $installerType = 'EXE'
-$url = 'https://www.haskell.org/platform/download/7.10.2/HaskellPlatform-7.10.2-i386-setup.exe'
-$url64 = 'https://www.haskell.org/platform/download/7.10.2/HaskellPlatform-7.10.2-x86_64-setup.exe'
+$url = 'https://haskell.org/platform/download/7.10.2/HaskellPlatform-7.10.2-a-i386-setup.exe'
+$url64 = 'https://haskell.org/platform/download/7.10.2/HaskellPlatform-7.10.2-a-x86_64-setup.exe'
 $silentArgs = '/S'
 $validExitCodes = @(0, 2)
 
@@ -14,10 +14,10 @@ $packageArgs = @{
   silentArgs    = $silentArgs
   validExitCodes= $validExitCodes
 
-  checksum      = '16c2474e11305aab0361a18cd5f7a22f'
-  checksumType  = 'md5'
-  checksum64    = '7497c6e977879f0e145765a8afbc603a'
-  checksumType64= 'md5'
+  checksum = '8c1a2e116e3a3b00857901bfd4f98b47c1ed07b562c438428d0e75a480b8d2f5'
+  checksumType = 'sha256'
+  checksum64 = 'acfd8144a090c1fa17dc5d9e564355ffdb159012ab0550a012abaacb4a1d58fa'
+  checksumType64= 'sha256'
 }
 
 Install-ChocolateyPackage @packageArgs
