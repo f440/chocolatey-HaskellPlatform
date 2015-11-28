@@ -4,7 +4,7 @@
   <metadata>
     <id>HaskellPlatform</id>
     <title>Haskell Platform</title>
-    <version>7.10.2.1</version>
+    <version>7.10.2.2</version>
     <authors>The University Court of the University of Glasgow.</authors>
     <owners>f440</owners>
     <summary>Haskell Platform</summary>
