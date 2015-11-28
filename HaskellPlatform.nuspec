@@ -9,7 +9,7 @@
     <owners>f440</owners>
     <summary>Haskell Platform</summary>
     <description>The platform consists of the Glasgow Haskell Compiler (GHC) and an extensive set of standard libraries and utilities with full documentation.</description>
-    <projectUrl>http://www.haskell.org/platform/</projectUrl>
+    <projectUrl>https://github.com/f440/chocolatey-HaskellPlatform</projectUrl>
     <tags>programming haskell</tags>
     <licenseUrl>http://lambda.haskell.org/platform/doc/current/ghc-doc/users_guide/License.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
